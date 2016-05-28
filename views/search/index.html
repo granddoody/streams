@@ -13,9 +13,11 @@
     </form>
 </div>
 
-{% if numItems ==0 %}
+{% if searchTerm %}
+
+{% if numItems == 0 %}
 <h4>No results for "{{ searchTerm }}"</h4>
-{% else $}
+{% else %}
 <h4>Search for "{{ searchTerm }}" ( {{ numItems }} )</h4>
 <hr>
 

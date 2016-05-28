@@ -21,7 +21,7 @@ index: function(req,res) {
           count:30 // max num of tweets
       };
       
-      client.get('serach/tweets', params, function(err,tweets) {
+      client.get('search/tweets', params, function(err,tweets) {
         if (err) {
             console.error (err);
             next(err);
@@ -33,8 +33,8 @@ index: function(req,res) {
               };
               
              if (tweets){
-                 data.items=tweets.statuses;
-                 data.numItems =data.items.length;
+                 data.items = tweets.statuses;
+                 data.numItems = data.items.length;
              } 
               
               
