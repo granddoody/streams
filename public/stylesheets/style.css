@@ -1,3 +1,9 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-image: url(http://images.all-free-download.com/images/graphicthumb/designed_colorful_abstract_wave_background_vector_graphic_569545.jpg);
+}
+
 .tweet-item {
   border: 1px solid #ccc;
   padding: 10px;
